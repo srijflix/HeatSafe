@@ -2026,7 +2026,15 @@ button {
     height: 40px;
   }
 
-  .nav a:after, .location-menu, .avatar {
+  .nav a:after {
+    display: none;
+  }
+
+  .nav a.active {
+    color: var(--teal);
+  }
+
+  .location-menu, .live-weather, .avatar {
     display: none;
   }
 
