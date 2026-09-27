@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "WATCHPACK_POLLING=true next dev --hostname 0.0.0.0",
     "build": "next build",
-    "build:worker": "opennextjs-cloudflare build",
-    "deploy": "wrangler deploy",
+    "build:worker": "opennextjs-cloudflare build --openNextConfigPath cloudflare-open-next.config.ts",
+    "deploy": "npm run build:worker && opennextjs-cloudflare deploy",
     "deploy:dry-run": "wrangler deploy --dry-run",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "preview": "npm run build:worker && opennextjs-cloudflare preview",
     "start": "next start --hostname 0.0.0.0"
   },
   "dependencies": {
