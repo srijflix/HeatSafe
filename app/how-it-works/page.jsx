@@ -3,7 +3,7 @@ import { ArrowRight, CloudSun, Droplets, MapPin, Route, ShieldCheck, Sparkles, T
 import SiteHeader from '../../src/SiteHeader'
 
 export const metadata = {
-  title: 'How It Works | HeatSafe',
+  title: 'How It Works',
   description: 'Learn how HeatSafe compares walking routes using live heat, air quality, shade estimates, water access, and travel time.',
 }
 

@@ -3,7 +3,7 @@ import { AlertTriangle, ArrowRight, Clock3, Droplets, HeartPulse, PhoneCall, Shi
 import SiteHeader from '../../src/SiteHeader'
 
 export const metadata = {
-  title: 'Heat Tips | HeatSafe',
+  title: 'Heat Tips',
   description: 'Practical tips for planning a walk, staying cool and hydrated, and recognizing heat-related illness.',
 }
 
