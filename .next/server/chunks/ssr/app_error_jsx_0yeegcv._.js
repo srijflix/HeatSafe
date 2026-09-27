@@ -1,0 +1,3 @@
+module.exports=[80823,a=>{"use strict";var b=a.i(87924);a.s(["default",0,function({reset:a}){return(0,b.jsxs)("main",{className:"error-screen",children:[(0,b.jsx)("h1",{children:"HeatSafe needs a quick reset."}),(0,b.jsx)("p",{children:"The live map could not start. Check your connection and try again."}),(0,b.jsx)("button",{className:"primary-button",onClick:a,children:"Try again"})]})}])}];
+
+//# sourceMappingURL=app_error_jsx_0yeegcv._.js.map

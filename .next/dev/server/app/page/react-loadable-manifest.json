@@ -1,0 +1,9 @@
+{
+  "[project]/src/App.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/App.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/src_137meik._.js",
+      "static/chunks/node_modules_1o_0mq1._.js"
+    ]
+  }
+}

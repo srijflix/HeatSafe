@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/srijan/Documents/GitHub/projects/HeatSafe/app/error.jsx"],"sourcesContent":["'use client'\n\nexport default function GlobalError({ reset }) {\n  return (\n    <main className=\"error-screen\">\n      <h1>HeatSafe needs a quick reset.</h1>\n      <p>The live map could not start. Check your connection and try again.</p>\n      <button className=\"primary-button\" onClick={reset}>Try again</button>\n    </main>\n  )\n}\n"],"names":["GlobalError","reset","className","onClick"],"mappings":";;;;;AAAA;;AAEe,SAASA,YAAY,EAAEC,KAAK,EAAE;IAC3C,qBACE,8OAAC;QAAKC,WAAU;;0BACd,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;0BACH,8OAAC;gBAAOA,WAAU;gBAAiBC,SAASF;0BAAO;;;;;;;;;;;;AAGzD"}},
+    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":["file:///Users/srijan/Documents/GitHub/projects/HeatSafe/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
